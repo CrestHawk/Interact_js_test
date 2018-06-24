@@ -1,0 +1,45 @@
+
+.quote-cart {
+  width: 300px;
+  height: 350px;
+  float: right;
+  background-color: rgb(96, 219, 106);
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 0.75em;
+
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.quote-cart-bottom {
+    height: 150px;
+    background-color: rgb(209, 59, 59);
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 0.75em;
+    float: bottom;
+  }
+
+.header-bar {
+    height: 110px;
+    background-color: rgb(0, 132, 255);
+    border-radius: 0.75em;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+
+.header-bar p {
+    text-align: center;
+    padding-top: 40px;
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: bold;
+}

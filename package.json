@@ -1,0 +1,22 @@
+{
+  "name": "interact-js-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrestHawk/Interact_js_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrestHawk/Interact_js_test/issues"
+  },
+  "homepage": "https://github.com/CrestHawk/Interact_js_test#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
