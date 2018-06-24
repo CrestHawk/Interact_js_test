@@ -3,7 +3,7 @@
   width: 300px;
   height: 350px;
   float: right;
-  background-color: rgb(96, 219, 106);
+  background-color: rgb(35, 216, 50);
   color: white;
   margin-top: 15px;
   margin-bottom: 25px;
@@ -15,9 +15,9 @@
           transform: translate(0px, 0px);
 }
 
-.quote-cart-bottom {
+.quote-cart-footer {
     height: 150px;
-    background-color: rgb(209, 59, 59);
+    background-color: rgb(35, 216, 50);
     color: white;
     margin-top: 15px;
     margin-bottom: 25px;
@@ -25,6 +25,7 @@
     margin-right: 50px;
     border-radius: 0.75em;
     float: bottom;
+    display: none;
   }
 
 .header-bar {
@@ -42,4 +43,27 @@
     font-size: x-large;
     font-family: sans-serif;
     font-weight: bold;
+}
+
+.configuration-panel {
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-right: 380px;
+    background-color: #fe5622;
+    border-radius: 0.75em;
+    height: 810px;
+}
+
+.configuration-panel-animate-right {
+    transition: height 0.5s;
+    transition: margin-right 1s;
+    margin-right: 50px;
+    height: 640px;
+}
+
+.reset-configuration-panel-animate {
+    transition: height 1s;
+    transition: margin-right 0.5s;
+    height: 810px;
+    margin-right: 380px;
 }
